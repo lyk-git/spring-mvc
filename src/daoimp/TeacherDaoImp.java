@@ -105,8 +105,8 @@ public class TeacherDaoImp implements TeacherDao
         //Student student=new Student("MF1732002","185431414","2141414@qq.com","1324155161","13124155","cx","123456","13424252",b);
         //
         Teacher student=new Teacher();
-        student.setId("1234311");
-        sd.add(student);
+//        student.setId("1234311");
+//        sd.add(student);
         List list=sd.query(student);
         System.out.print(((Teacher)list.get(0)).getId());
     }

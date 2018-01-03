@@ -108,9 +108,11 @@ public class StudentDaoImp implements StudentDao
         Byte b=1;
         //Student student=new Student("MF1732002","185431414","2141414@qq.com","1324155161","13124155","cx","123456","13424252",b);
         //
-        Student student=new Student("MF1732001",null,null,null,null,null,null,null,null);
-        //sd.add(student);
+        Student student=new Student("MF1732003",null,null,null,null,null,null,null,null);
+        sd.add(student);
+//        System.out.println("ffffff");
         List list=sd.query(student);
         System.out.print(((Student)list.get(0)).getId());
+//        System.out.println("hhhhhh");
     }
 }
